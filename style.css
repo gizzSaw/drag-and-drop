@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: #8172ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fill {
+    background: url("1.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.empty {
+    background: url("https://sun9-north.userapi.com/sun9-86/s/v1/if2/AF8zrE38W3aDsrxcKZIM1xAdy4OdrfdmTmbDPGvrXAaL5RQ_eaElHgS0k9mBVLZAAgwVmvMlnbXukPbR77a_epL1.jpg?size=1280x1255&quality=96&type=album");
+    height: 260px;
+    width: 260px;
+    /* background-size: cover; */
+    object-fit: cover;
+    border: 2px solid #fff;
+    display: inline-block;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.hold {
+    border: 4px solid red;
+}
+
+.hovered {
+    background-color: #ff44ff;
+    border-style: dotted;
+}
+
+.invisible {
+    display: none;
+}
